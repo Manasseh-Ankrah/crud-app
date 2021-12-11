@@ -1,0 +1,44 @@
+/* .modal__paper {
+} */
+
+/* const style = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: 600,
+    bgcolor: "background.paper",
+    border: "1px solid #000",
+    p: 2,
+    px: 4,
+    pb: 3,
+  }; */
+
+@media screen and (max-width: 500px) {
+  .app__box1 {
+    width: 320px;
+  }
+
+  .app__box2 {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .app__box1 {
+    width: 280px;
+  }
+
+  .app__box2 {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .app__box1 {
+    width: 260px;
+  }
+
+  .app__box2 {
+    width: 160px;
+  }
+}
